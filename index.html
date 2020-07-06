@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reporting Tool</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='script.js'></script>
+</head>
+<header>
+    <h2>Reporting tool</h2>
+</header>
+<body onload="onInit()" id="body">
+    <div id="mainBody">
+        <table id="reportTable">
+            <col>
+            <colgroup span="2"></colgroup>
+            <colgroup span="3"></colgroup>
+            <tr>              
+              <th colspan="2" scope="colgroup" class="blue">Tutorial Detail</th>
+              <th colspan="4" scope="colgroup" class="orange">Actual Result</th>
+            </tr>
+            <tr>              
+                <th colspan="2" scope="colgroup" class="blue"></th> 
+                <th colspan="2" scope="colgroup" class="grey">Trial Europe Frankfurt (AWS) </th>
+                <th colspan="2" scope="colgroup" class="olive">Trial US East(VA) (AWS) </th>
+              </tr>
+            <tr class="tableHeader">
+              <th scope="col"> Title</th>
+              <th scope="col"> Category</th>
+              <th scope="col"> Result</th>
+              <th scope="col"> Issue Summary</th>  
+              <th scope="col"> Result</th>
+              <th scope="col"> Issue Summary</th>
+            </tr>
+            <tr id="data"></tr>
+
+
+          </table>
+    </div>    
+</body>
+</html>
+    
